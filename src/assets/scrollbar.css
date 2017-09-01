@@ -1,0 +1,30 @@
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track{
+  border: 1px gray solid;
+  border-radius: 5px;
+  box-shadow: 0 0 6px #AAA inset;
+}
+::-webkit-scrollbar-thumb{
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.hideScrollbar {
+  overflow-y: scroll;
+  padding-right: 5.3px;
+}
+.hideScrollbar:hover {
+  padding-right: 0px;
+}
+.hideScrollbar::-webkit-scrollbar {
+  width: 0px;
+}
+.hideScrollbar:hover::-webkit-scrollbar {
+  width: 5px;
+}
+.hideScrollbar:hover::-webkit-scrollbar-track {
+  border-radius: 2px;
+}
